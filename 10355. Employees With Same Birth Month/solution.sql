@@ -1,3 +1,4 @@
+-- Write your PostgreSQL query statement below
 WITH months AS (SELECT
 DISTINCT birth_month AS month FROM employee_list),
 
