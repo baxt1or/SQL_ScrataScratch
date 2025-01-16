@@ -1,0 +1,4 @@
+SELECT
+*
+FROM random_id
+ORDER BY SUBSTRING(id FROM 2 FOR 1)
